@@ -49,3 +49,11 @@ When earliest and latest parameters are specified this will be the effective ran
 
 Written by Bruno Moura <brunotm@gmail.com>
 
+
+## Greylog-ES query
+```
+|ess eaddr="http://localhost:9200" index=graylog_0 tsfield="timestamp" latest="now" earliest="now-24h" query="*" fields="*"
+```
+
+
+
